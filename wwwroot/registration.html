@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/registration.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <div>
+        <h1>Регистрация</h1>
+    </div>
+    <div class="login-element">
+        <h2>Фамилия, Имя, Отчество</h2>
+        <input id="full-name" type="text" placeholder="Иванов Иван Ивановч" required />
+    </div>
+    <div class="login-element">
+        <h2>логин</h2>
+        <input id="login" type="text" placeholder="Jj1@" required />
+    </div>
+    <div class="login-element">
+        <h2>пароль</h2>
+        <input id="password" type="password" placeholder="Jj1@" required />
+    </div>
+    <div class="login-element"> 
+        <h2>повторите пароль</h2>
+        <input id="repeat-password" type="password" placeholder="Jj1@" required />
+    </div>
+    <div class="login-element">
+        <h2>код выданный вам школой</h2>
+        <input id="code" type="text" placeholder="Jj1@" required />
+    </div>
+    <div class="login-element" id="role">
+        <h2>Роль</h2>
+        <select id="role-select" required>
+            <option value="administrator">Администратор</option>
+            <option value="cook">Повар</option>
+            <option value="student">Ученик</option>
+        </select>
+    </div>
+    <button id="registration-button" type="submit">зарегистрироваться</button>
+
+    <script src="js/registration.js"></script>
+</body>
+</html>

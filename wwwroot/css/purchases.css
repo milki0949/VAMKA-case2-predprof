@@ -1,0 +1,101 @@
+body {
+    background-color: #f0f8ff; 
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif; 
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    background-color: #a6dcef; 
+    border: 2px solid black;
+    padding: 0.5em 3em; 
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 2px;
+    box-shadow: 3px 3px 0px rgba(0,0,0,0.1);
+}
+
+.card {
+    width: 32em;
+    height: auto;
+    background: white;
+    border: 2px solid #000;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+    margin-top: 1em;
+}
+
+.header {
+    background-color: #a6dcef;
+    padding: 0.3em 1em;
+    border-bottom: 4px solid #000;
+    text-align: center;
+    font-size: 1.55em;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.content {
+    padding: 1em 1em 1em;
+    font-size: 1.38em;
+    line-height: 1.55;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.9em;
+    white-space: nowrap;
+}
+
+.total-row {
+    margin-top: 18px;
+    padding-top: 14px;
+    border-top: 3px dashed #444;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 1.65em;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    border-top: 5px solid #000;
+    height: 4.5em;
+}
+
+.btn {
+    flex: 1;
+    height: 100%;
+    font-size: 1.9em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: filter 0.12s;
+}
+
+.btn:hover {
+    filter: brightness(1.15);
+}
+
+.btn-approve {
+    background: #4caf50;     
+}
+
+.btn-reject {
+    background: #f44336;     
+    border-left: 5px solid #000;
+}
+
+.small {
+    font-size: 0.82em;
+    opacity: 0.85;
+}

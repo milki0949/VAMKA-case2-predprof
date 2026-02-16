@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/login.css">
+    <title>вход</title>
+</head>
+<body>
+    <div>
+        <h1>вход</h1>
+    </div>
+    <div class="login-element">
+        <h2>логин</h2>
+        <input id="login" type="text" placeholder="Jj1@" required />
+    </div>
+    <div class="login-element">
+        <h2>пароль</h2>
+        <input id="password" type="password"  placeholder="Jj1@" required />
+    </div>
+    <div class="role login-element">
+        <h2>Роль</h2>
+        <select id="role" required>
+            <option value="administrator">Администратор</option>
+            <option value="cook">Повар</option>
+            <option value="student">Ученик</option>
+        </select>
+    </div>
+    <button id="login-button" type="submit">Войти</button>
+
+    <script src="js/login.js"></script>
+</body>
+</html>
